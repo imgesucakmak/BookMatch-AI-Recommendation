@@ -22,9 +22,7 @@ Kullanıcının seçtiği kitabın içeriğini ve okur yorumlarını analiz eden
 ## 💻 Kurulum ve Çalıştırma
 Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-**1. Repoyu bilgisayarınıza klonlayın:
-  2. Gerekli kütüphaneleri yükleyin:
-  3. Streamlit uygulamasını başlatın:**
+**1. Repoyu bilgisayarınıza klonlayın:**
 ```bash
 git clone https://github.com/imgesucakmak/BookMatch-AI-Recommendation.git
 pip install -r requirements.txt
