@@ -14,7 +14,7 @@ with st.sidebar:
     """)
     st.write("Geliştiren: [İmge Su Çakmak]")
 st.title("📚 BookMatch: Akıllı Kitap Tavsiye Sistemi")
-st.markdown("Okuduğun ve sevdiğin bir kitabı seç, yapay zeka sana en uygun 5 kitabu bulsun! ")
+st.markdown("Okuduğun ve sevdiğin bir kitabı seç, yapay zeka sana en uygun 5 kitabı bulsun! ")
 
 @st.cache_data
 def load_data():
@@ -63,3 +63,4 @@ if st.button("Tavsiye Bul 🚀"):
 
         except IndexError:
             st.error("Seçilen kitap için tavsiye bulunamadı. Lütfen başka bir kitap seçin.")
+
