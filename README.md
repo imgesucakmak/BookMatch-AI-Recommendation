@@ -25,7 +25,9 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 1. Repoyu bilgisayarınıza klonlayın:
    ```bash
    git clone [https://github.com/](https://github.com/)[imgesucakmak]/[BookMatch-AI-Recommendation].git
+   
 2.Gerekli kütüphaneleri yükleyin:
   pip install -r requirements.txt
+  
 3.Streamlit uygulamasını başlatın:
  streamlit run app.py
